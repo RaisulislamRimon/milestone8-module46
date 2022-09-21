@@ -1,0 +1,28 @@
+nav {
+  /* float: none; */
+  /* overflow: hidden; */
+  /* margin: 0 auto; */
+  display: flex;
+  overflow: auto;
+}
+
+nav li {
+  list-style-type: none;
+  /* float: left; */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0 1rem;
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav li a:hover {
+  color: #f1c40f;
+  border: 1px solid tomato;
+  /* padding: 10px 20px; */
+}
